@@ -20,8 +20,8 @@ public class AppConstants {
     /*
     shared preferences constant
     */
-    public static final String SELECTED_LANGUAGE = "selectedLanguage";
-    public static final String NOTIFICATION_TYPE = "notification_type";
+    public static final String MESSAGE = "message";
+    public static final String PHOTOS_DATA = "photos_data";
     public static final String NOTIFICATION_MESSAGE = "notification_message";
 
 

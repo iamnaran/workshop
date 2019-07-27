@@ -6,6 +6,7 @@ public class UpasargaToast {
 
     public static Toast showToastWithMessage(String messageResourceId) {
         Toast toast = Toast.makeText(UpasargaApplication.getAppContext(), messageResourceId, Toast.LENGTH_SHORT);
+
         toast.show();
         return toast;
     }

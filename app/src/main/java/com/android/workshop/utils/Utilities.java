@@ -4,7 +4,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 
 import com.android.workshop.constants.AppConstants;
+import com.android.workshop.constants.SharedPrefConstants;
 import com.android.workshop.helper.UpasargaApplication;
+import com.google.gson.GsonBuilder;
+
 public class Utilities {
 
     /*
@@ -48,7 +51,6 @@ public class Utilities {
 //        editor.putBoolean(SharedPrefConstants.IS_FIRST_LOGIN, true);
 //        editor.apply();
 //    }
-
 //
 //    public static LoginModel getLoginResponse() {
 //        String savedUserResponse = UpasargaApplication.getSharedPreference().getString(SharedPrefConstants.LOGIN_RESPONSE, null);

@@ -26,6 +26,7 @@ public class UpasargaApplication extends Application implements Application.Acti
         super.onCreate();
         registerActivityLifecycleCallbacks(this);
         upasargaApplication = this;
+
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getAppContext());
 
 

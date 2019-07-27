@@ -1,26 +1,25 @@
 package com.android.workshop.apiservices;
 
 
+import com.android.workshop.models.Photos;
 import com.android.workshop.models.SampleData;
 
 import java.util.List;
 
 import retrofit2.Call;
+import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
+import retrofit2.http.POST;
 
 public interface LoginApiService {
 
     @GET("list")
-    Call<List<SampleData>> requestSampleData();
+    Call<List<Photos>> requestPhotos();
 
-//    @POST("login")
+
+
+//
+//    @POST("list")
 //    @FormUrlEncoded
-//    Call<LoginModel> userLogin(
-//            @Field("email") String email,
-//            @Field("password") String password,
-//            @Field("fcm_token") String fcmToken
-//    );
-
-
-
+//    Call<List<Photos>> login(String);
 }

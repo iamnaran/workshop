@@ -1,0 +1,1 @@
+package com.android.workshop.helper;import androidx.appcompat.app.AppCompatActivity;public abstract class UpasargaActivity extends AppCompatActivity {    public abstract void initaliseView();    public abstract void initaliseListeners();}

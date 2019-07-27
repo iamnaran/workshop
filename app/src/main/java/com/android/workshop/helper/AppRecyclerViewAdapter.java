@@ -1,1 +1,1 @@
-package com.android.workshop.helper;import androidx.recyclerview.widget.RecyclerView;public abstract class AppRecyclerViewAdapter extends RecyclerView.Adapter {    abstract void add(Object object);    abstract void clear();}
+package com.android.workshop.helper;import androidx.recyclerview.widget.RecyclerView;public abstract class AppRecyclerViewAdapter extends RecyclerView.Adapter {    protected abstract void add(Object object);    protected abstract void clear();}
