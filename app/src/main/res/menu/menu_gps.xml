@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_check"
+        android:icon="@drawable/ic_email_round_24_dp"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+
+</menu>

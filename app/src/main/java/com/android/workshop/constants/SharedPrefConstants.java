@@ -1,0 +1,1 @@
+package com.android.workshop.constants;public class SharedPrefConstants {    public static final String SELECTED_LANGUAGE = "selectedLanguage";    public static final String LOGIN_RESPONSE = "login_response";    public static final String IS_FIRST_LOGIN = "is_first_login";}
